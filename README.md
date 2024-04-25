@@ -30,7 +30,7 @@ Başlamadan önce, web servisinin WSDL dosyasını indirmemiz gerekiyor. WSDL do
 
 urada **`location`** özelliği, servisin bulunduğu URL'yi belirtir. Bu örnekte, URL **`http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso`**'dur. Bu adres, **`CountryInfoService`** adlı servise erişim sağlamak için kullanılır. Yani, bu URL üzerinden servise SOAP istekleri gönderilir ve servis bu isteklere cevap verir.
 
-1. **gowsdl Kütüphanesini Kurun:**
+2. **gowsdl Kütüphanesini Kurun:**
 
 Golang ile SOAP entegrasyonu için `gowsdl` kütüphanesini kullanacağız. Kütüphaneyi kurmak için terminalde şu komutu çalıştırın:
 
@@ -38,7 +38,7 @@ Golang ile SOAP entegrasyonu için `gowsdl` kütüphanesini kullanacağız. Küt
 go get -u github.com/hooklift/gowsdl
 ```
 
-1. **WSDL'den Golang Kodları Oluşturun:**
+3. **WSDL'den Golang Kodları Oluşturun:**
 
 `gowsdl` komutunu kullanarak WSDL dosyasından Golang kodlarını otomatik olarak oluşturabilirsiniz. Bunu yapmak için terminalde şu komutu çalıştırın:
 
